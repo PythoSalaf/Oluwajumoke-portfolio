@@ -1,0 +1,23 @@
+html {
+  scroll-padding-top: 4rem;
+}
+
+body {
+  background-color: #f7fcfe;
+  font-family: "Annapurna SIL", serif;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.layout {
+  width: 94%;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .layout {
+    width: 93%;
+  }
+}
