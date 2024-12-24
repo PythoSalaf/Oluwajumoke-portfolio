@@ -4,5 +4,6 @@ import Project1 from "./DecoAR1.svg";
 import Project2 from "./ECT.svg";
 import Project3 from "./vtu.svg";
 import Project4 from "./teddy.svg";
+import ContactBg from "./contact.svg";
 
-export { Logo, Hero, Project1, Project2, Project3, Project4 };
+export { Logo, Hero, Project1, Project2, Project3, Project4, ContactBg };
