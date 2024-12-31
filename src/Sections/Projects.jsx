@@ -3,7 +3,7 @@ import { ProjectDatas } from "../Components/DummyData";
 
 const Projects = () => {
   return (
-    <div className="w-full mt-20">
+    <div className="w-full mt-20" id="project">
       <div className="layout">
         <h2 className="text-center font-semibold text-3xl md:text-3xl lg:text-4xl">
           Projects

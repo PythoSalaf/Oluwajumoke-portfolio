@@ -24,14 +24,14 @@ const Contact = () => {
       title: "LinkedIn",
       icon: <FaLinkedinIn className=" size-[55%]" />,
       link: "https://www.linkedin.com/in/olajumoke-oyeniyi-6a82742b6/",
-      displayText: "LinkedIn",
+      displayText: "Olajumoke Oyeniyi",
     },
   ];
   const handleClick = (e) => {
     e.preventDefault();
   };
   return (
-    <div className="w-full mt-20">
+    <div className="w-full mt-20" id="contact">
       <div className="layout">
         <h2 className="text-center font-semibold text-3xl md:text-3xl lg:text-4xl">
           Contact
@@ -65,7 +65,7 @@ const Contact = () => {
                 <button
                   type="submit"
                   onClick={handleClick}
-                  className="bg-secondary  py-2 rounded-xl w-[40%] md:w-[35%] text-lg md:text-xl lg:w-[30%] text-white"
+                  className="bg-secondary hover:bg-primary hover:shadow-custom hover:text-secondary  py-2 rounded-xl w-[40%] md:w-[35%] text-lg md:text-xl lg:w-[30%] text-white"
                 >
                   Submit
                 </button>
@@ -77,7 +77,7 @@ const Contact = () => {
           <img
             src={ContactBg}
             alt=""
-            className="w-[90%] md:w-[80%] lg:w-[70%] relative"
+            className="w-[85%] md:w-[80%] lg:w-[70%] relative"
           />
           <div className="absolute inset-0 left-24 lg:left-72 top-28 sm:left-44 sm:top-52 lg:top-40 md:top-36">
             {contactDetail.map((item) => (
@@ -85,7 +85,7 @@ const Contact = () => {
                 className="flex items-center gap-x-3 mb-5 md:mb-8"
                 key={item.id}
               >
-                <div className="bg-white rounded-lg size-10 md:size-[50px] text-secondary flex items-center justify-center">
+                <div className="bg-white rounded-lg w-12 h-10 md:w-[60px] md:h-[50px] text-secondary flex items-center justify-center">
                   {item.icon}
                 </div>
                 <div className="text-white w-full">

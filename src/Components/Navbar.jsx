@@ -16,11 +16,12 @@ const Navbar = () => {
           <a href="#about">About Me</a>
           <a href="#services">Services</a>
           <a href="#project">Projects</a>
+          <a href="#testimonial">Testimonial</a>
           <a href="#contact">Contact</a>
         </div>
         <div className="hidden md:block">
           <a href="#contact">
-            <button className="border rounded-lg px-4 py-[6px] text-xl">
+            <button className="border rounded-lg hover:bg-secondary hover:text-white px-4 py-[6px] text-xl">
               Send a message
             </button>
           </a>
@@ -36,7 +37,60 @@ const Navbar = () => {
           )}
         </div>
         {isOpen && (
-          <div className="absolute right-0 top-[58px] w-[75%] h-80 bg-secondary"></div>
+          <div className="absolute right-0 top-[58px] w-[75%] h-80 bg-secondary">
+            <ul className="text-white pl-6 pt-4">
+              <li className="mb-6">
+                <a
+                  href="#home"
+                  className="text-lg"
+                  onClick={() => setIsOpen(!isOpen)}
+                >
+                  Home
+                </a>
+              </li>
+              <li className="mb-6">
+                <a href="#about" onClick={() => setIsOpen(!isOpen)}>
+                  About Me
+                </a>
+              </li>
+              <li className="mb-6">
+                <a
+                  href="#services"
+                  className="text-lg"
+                  onClick={() => setIsOpen(!isOpen)}
+                >
+                  Services
+                </a>
+              </li>
+              <li className="mb-6">
+                <a
+                  href="#project"
+                  className="text-lg"
+                  onClick={() => setIsOpen(!isOpen)}
+                >
+                  Projects
+                </a>
+              </li>
+              <li className="mb-6">
+                <a
+                  href="#testimonial"
+                  className="text-lg"
+                  onClick={() => setIsOpen(!isOpen)}
+                >
+                  Testimonial
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#contact"
+                  className="text-lg"
+                  onClick={() => setIsOpen(!isOpen)}
+                >
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </div>
         )}
       </div>
     </div>

@@ -22,7 +22,7 @@ const Services = () => {
     },
   ];
   return (
-    <div className="w-full">
+    <div className="w-full" id="services">
       <div className="layout ">
         <h2 className="text-center font-semibold text-3xl md:text-3xl lg:text-4xl">
           Services
