@@ -12,11 +12,13 @@ const Home = () => {
             Hi, My name is Olajumoke Oyeniyi. <br /> I am a UI/UX Designer.
           </h2>
           <div className="flex items-center justify-center md:justify-start w-full mt-10 gap-x-7">
-            <button className="bg-black hover:bg-primary  hover:shadow-custom hover:text-secondary rounded-2xl text-white py-2 w-[80%] md:w-[50%] lg:w-[25%] text-base  md:text-lg capitalize">
+            <button className="bg-black md:hover:bg-primary  md:hover:shadow-custom md:hover:text-secondary rounded-2xl text-white py-2 w-[80%] md:w-[50%] lg:w-[25%] text-base  md:text-lg capitalize">
               view resume
             </button>
-            <button className="bg-black rounded-2xl hover:bg-transparent  hover:shadow-custom hover:text-secondary text-white py-2 w-[90%] md:w-[60%] lg:w-[30%] text-base  md:text-lg capitalize">
-              reach out
+            <button className="bg-black rounded-2xl md:hover:bg-transparent  md:hover:shadow-custom md:hover:text-secondary text-white py-2 w-[90%] md:w-[60%] lg:w-[30%] text-base  md:text-lg capitalize">
+              <a href="#contact" className="text-base">
+                reach out
+              </a>
             </button>
           </div>
         </div>

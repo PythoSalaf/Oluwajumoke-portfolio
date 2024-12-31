@@ -15,7 +15,7 @@ const ProjectCard = ({ title, description, image, role, link }) => {
           <img src={image} alt="" className="w-[98%] mx-auto " />
         </div>
         <div className="w-full py-2 flex items-center justify-center">
-          <button className="w-[55%] md:w-[45%] bg-secondary hover:bg-transparent hover:shadow-custom hover:text-secondary py-1 rounded-lg text-white lg:w-[40%] flex items-center justify-center font-semibold">
+          <button className="w-[55%] md:w-[45%] bg-secondary md:hover:bg-transparent md:hover:shadow-custom md:hover:text-secondary py-1 rounded-lg text-white lg:w-[40%] flex items-center justify-center font-semibold">
             <a href={`${link}`} target="_blank" rel="noopener noreferrer">
               View
             </a>

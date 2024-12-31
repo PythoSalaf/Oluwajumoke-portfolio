@@ -36,7 +36,7 @@ const Contact = () => {
         <h2 className="text-center font-semibold text-3xl md:text-3xl lg:text-4xl">
           Contact
         </h2>
-        <p className="text-center text-xl md:text-2xl">
+        <p className="text-center text-lg md:text-xl lg:text-2xl">
           Let’s bring your ideas to life! Reach out, and let’s design products{" "}
           <br />
           that make a difference. Your next big project starts here!
@@ -45,27 +45,27 @@ const Contact = () => {
       <div className="w-full flex  mt-10 items-center flex-col md:flex-row gap-10 md:gap-0 justify-between">
         <div className="w-full ">
           <div className="w-[85%] md:w-[80%]  mx-auto">
-            <form className="w-full mx-auto">
+            <form className="w-[90%] md:w-full mx-auto">
               <input
                 type="text"
                 placeholder="Name"
-                className="w-[90%] bg-green-700 mx-auto md:w-full h-[40px] md:h-[45px] text-secondary text-base md:text-lg lg:text-xl  rounded-xl border border-[#dadada] bg-transparent px-4"
+                className="w-full h-[40px] md:h-[45px] text-secondary text-base md:text-lg lg:text-xl  rounded-xl border border-[#dadada] bg-transparent px-4"
               />
 
               <input
                 type="email"
                 placeholder="Email"
-                className="w-[90%] mx-auto md:w-full h-[40px] my-6 md:h-[45px] text-secondary text-base md:text-lg lg:text-xl  rounded-xl border border-[#dadada] bg-transparent px-4"
+                className="w-full h-[40px] my-6 md:h-[45px] text-secondary text-base md:text-lg lg:text-xl  rounded-xl border border-[#dadada] bg-transparent px-4"
               />
               <textarea
                 placeholder="Messages"
-                className="resize-none rounded-xl border border-[#dadada] px-4 pt-3 bg-transparent w-[90%] mx-auto md:w-full h-28 md:h-36 "
+                className="resize-none rounded-xl border border-[#dadada] px-4 pt-3 bg-transparent w-full h-28 md:h-36 "
               />
               <div className="mt-5 flex items-center w-full flex-col justify-center">
                 <button
                   type="submit"
                   onClick={handleClick}
-                  className="bg-secondary hover:bg-primary hover:shadow-custom hover:text-secondary  py-2 rounded-xl w-[40%] md:w-[35%] text-lg md:text-xl lg:w-[30%] text-white"
+                  className="bg-secondary md:hover:bg-primary hover:shadow-custom md:hover:text-secondary  py-2 rounded-xl w-[40%] md:w-[35%] text-lg md:text-xl lg:w-[30%] text-white"
                 >
                   Submit
                 </button>
@@ -77,7 +77,7 @@ const Contact = () => {
           <img
             src={ContactBg}
             alt=""
-            className="w-[85%] md:w-[80%] lg:w-[70%] relative"
+            className="w-[88%] md:w-[80%] lg:w-[70%] relative"
           />
           <div className="absolute inset-0 left-28 lg:left-72 top-28 sm:left-44 sm:top-52 lg:top-40 md:top-36">
             {contactDetail.map((item) => (
