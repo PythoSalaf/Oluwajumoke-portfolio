@@ -6,7 +6,7 @@ const About = () => {
           About Me
         </h2>
         <div className="mt-5">
-          <p className=" text-lg md:text-xl font-semibold">
+          <p className=" text-lg md:text-xl font-medium">
             I’m Olajumoke Oyeniyi, a UI/UX Designer devoted to creating products
             that people love to use every day. I strive to design experiences
             that are simple, intuitive, and crafted with care while ensuring
@@ -14,7 +14,7 @@ const About = () => {
             developing solutions that are not only visually compelling but also
             enhance usability and functionality in every detail.
           </p>
-          <p className="my-4 md:my-[2rem] text-lg md:text-xl font-semibold  ">
+          <p className="my-4 md:my-[2rem] text-lg md:text-xl font-medium  ">
             My approach blends creativity with purpose, balancing aesthetics
             with thoughtful functionality to elevate everyday interactions. I
             believe design should not only look good but also solve real

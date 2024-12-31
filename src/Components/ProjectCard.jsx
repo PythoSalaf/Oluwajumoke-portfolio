@@ -1,6 +1,6 @@
 const ProjectCard = ({ title, description, image, role, link }) => {
   return (
-    <div className="bg-[#E9E4DD] w-[90%]  rounded-xl border border-secondary mx-auto md:w-full py-3">
+    <div className="bg-[#E9E4DD] w-[90%]  rounded-xl border border-secondary mx-auto md:w-full py-3 ">
       <div className="w-[90%] mx-auto">
         <div className="flex items-center gap-x-2">
           <h2 className="text-lg md:text-xl font-bold">Project:</h2>

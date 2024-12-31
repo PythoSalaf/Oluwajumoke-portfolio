@@ -30,7 +30,7 @@ const Services = () => {
         <div className="w-full mt-8 grid grid-cols-1 md:grid-cols-2 gap-6 lg:grid-cols-4">
           {Data.map((item) => (
             <div
-              className="bg-secondary w-[96%] mx-auto md:w-full py-4 text-white"
+              className="bg-secondary  w-[96%] mx-auto md:w-full py-4 text-white hover:scale-110 transition-transform duration-200 ease-in"
               key={item.id}
             >
               <div className="w-[92%] mx-auto">

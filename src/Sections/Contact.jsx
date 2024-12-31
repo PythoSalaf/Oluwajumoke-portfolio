@@ -45,21 +45,21 @@ const Contact = () => {
       <div className="w-full flex  mt-10 items-center flex-col md:flex-row gap-10 md:gap-0 justify-between">
         <div className="w-full ">
           <div className="w-[85%] md:w-[80%]  mx-auto">
-            <form>
+            <form className="w-full mx-auto">
               <input
                 type="text"
                 placeholder="Name"
-                className="w-full h-[40px] md:h-[45px] text-secondary text-base md:text-lg lg:text-xl  rounded-xl border border-[#dadada] bg-transparent px-4"
+                className="w-[90%] bg-green-700 mx-auto md:w-full h-[40px] md:h-[45px] text-secondary text-base md:text-lg lg:text-xl  rounded-xl border border-[#dadada] bg-transparent px-4"
               />
 
               <input
                 type="email"
                 placeholder="Email"
-                className="w-full h-[40px] my-6 md:h-[45px] text-secondary text-base md:text-lg lg:text-xl  rounded-xl border border-[#dadada] bg-transparent px-4"
+                className="w-[90%] mx-auto md:w-full h-[40px] my-6 md:h-[45px] text-secondary text-base md:text-lg lg:text-xl  rounded-xl border border-[#dadada] bg-transparent px-4"
               />
               <textarea
                 placeholder="Messages"
-                className="resize-none rounded-xl border border-[#dadada] px-4 pt-3 bg-transparent w-full h-28 md:h-36 "
+                className="resize-none rounded-xl border border-[#dadada] px-4 pt-3 bg-transparent w-[90%] mx-auto md:w-full h-28 md:h-36 "
               />
               <div className="mt-5 flex items-center w-full flex-col justify-center">
                 <button
@@ -79,7 +79,7 @@ const Contact = () => {
             alt=""
             className="w-[85%] md:w-[80%] lg:w-[70%] relative"
           />
-          <div className="absolute inset-0 left-24 lg:left-72 top-28 sm:left-44 sm:top-52 lg:top-40 md:top-36">
+          <div className="absolute inset-0 left-28 lg:left-72 top-28 sm:left-44 sm:top-52 lg:top-40 md:top-36">
             {contactDetail.map((item) => (
               <div
                 className="flex items-center gap-x-3 mb-5 md:mb-8"
