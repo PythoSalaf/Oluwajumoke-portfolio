@@ -48,7 +48,7 @@ const TestSlider = () => {
     ],
   };
   return (
-    <div className="w-full relative mx-auto  mt-4">
+    <div className="w-full relative mx-auto  mt-4 ">
       <Slider {...settings}>
         {ReviewData.map((review) => (
           <div key={review.id}>

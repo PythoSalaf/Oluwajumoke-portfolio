@@ -7,7 +7,7 @@ const Testimonial = () => {
         <h2 className="text-center font-semibold text-3xl md:text-3xl lg:text-4xl">
           Testimonial
         </h2>
-        <div className="w-full">
+        <div className="w-full overflow-hidden my-5">
           <TestimonialSlider />
         </div>
       </div>
