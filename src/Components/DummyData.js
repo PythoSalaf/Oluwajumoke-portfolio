@@ -1,12 +1,4 @@
-import {
-  Isreal,
-  Preshi,
-  Project1,
-  Project2,
-  Project3,
-  Project4,
-  Taoheed,
-} from "../assets";
+import { Project1, Project2, Project3, Project4 } from "../assets";
 
 export const ProjectDatas = [
   {
@@ -52,16 +44,14 @@ export const ReviewData = [
     id: 1,
     name: "Isreal",
     review:
-      "Olajumoke is an exceptional UI/UX designer who consistently delivers outstanding work. Her designs are not only visually stunning but also user-centered and intuitive.",
-    image: Isreal,
+      "Olajumoke is an exceptional UI/UX designer who consistently delivers outstanding work. ",
     role: "Product Designer",
   },
   {
     id: 2,
     name: "Preshi",
     review:
-      "I love Olajumoke's modern design approach. She has a great eye for trends while ensuring usability is top-notch. Our customers frequently compliment the app's intuitive interface.",
-    image: Preshi,
+      "I love Olajumoke's modern design approach. She has a great eye for trends while ensuring usability is top-notch.",
     role: "Product Designer",
   },
   {
@@ -69,15 +59,13 @@ export const ReviewData = [
     name: "Taoheed",
     review:
       "Olajumoke has a deep understanding of user-centered design principles. She’s a valuable asset to any team.",
-    image: Taoheed,
     role: "Frontend Developer",
   },
   {
     id: 4,
     name: "James",
     review:
-      "I love Olajumoke's modern design approach. She has a great eye for trends while ensuring usability is top-notch. Our customers frequently compliment the app's intuitive interface.",
-    image: Isreal,
+      "I love Olajumoke's modern design approach. She has a great eye for trends while ensuring usability is top-notch. ",
     role: "Product Designer",
   },
 ];
